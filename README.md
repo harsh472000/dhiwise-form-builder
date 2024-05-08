@@ -34,7 +34,7 @@ This Form Builder application enables users to design and customize forms by dra
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repository/form-builder.git
+   git clone https://github.com/harsh472000/dhiwise-form-builder.git
    cd form-builder
    ```
 2. Install dependencies:
