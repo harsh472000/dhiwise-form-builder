@@ -31,7 +31,7 @@
   "scripts": {
     "start": "cross-env webpack-dev-server --config webpack.dev.js --open",
     "build:staging": "cross-env webpack --config webpack.staging.js",
-    "build:prod": "npm version patch && cross-env webpack --config webpack.prod.js"
+    "build:prod": "cross-env webpack --config webpack.prod.js"
   },
   "eslintConfig": {
     "extends": [
