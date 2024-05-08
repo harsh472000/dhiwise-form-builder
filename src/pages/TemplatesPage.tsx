@@ -33,8 +33,6 @@ const TemplatesPage: FunctionComponent<TemplatesPageProps> = () => {
     borderRadius: "9px",
   };
 
-  console.log(templates);
-
   return (
     <>
       <div className="d-flex mt-5 flex-column align-items-center justify-content-center">

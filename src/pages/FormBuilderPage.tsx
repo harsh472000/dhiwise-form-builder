@@ -25,7 +25,6 @@ const FormBuilderPage: FunctionComponent<FormBuilderPageProps> = () => {
         const template = await dispatch(
           getSingleTemplate(formId as string)
         ).unwrap();
-        console.log(template);
         if(!template){
           throw new Error('Not found');
         }
